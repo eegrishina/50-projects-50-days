@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #262626;
+    color: #fff;
+    overflow-x: hidden;
+    margin: 30px;
+}
+
+div,
+img,
+a {
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .projects {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.project {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: beige;
+    color: #000;
+    font-size: 1.3rem;
+    aspect-ratio: 4 / 3;
+}
+
+.project__number {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-color: rgb(153, 205, 50);
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 8px;
+    width: 50px;
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project__hidden-block {
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(153, 205, 50, 0.6);
+    transition: all 0.3s ease-out;
+}
+
+.project__hidden-block:hover {
+    opacity: 1;
+}
+
+.project__hidden-block h2 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.project__hidden-block a {
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+    background-color: rgb(239, 229, 39);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 8px 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.project__hidden-block a:hover {
+    transform: scale(1.1);
+}
