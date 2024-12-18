@@ -45,10 +45,10 @@ const projectsList = LIST_PROJECTS.map(project => {
     return (`
         <div class="project">
             <span class="project__number">${number}</span>
-            <img src="/images/${project}.png" alt="${project}" />
+            <img src="./images/${project}.png" alt="${project}" />
             <div class="project__hidden-block">
                 <h2>${title}</h2>
-                <a href="/projects/${project}/index.html" target="_blank">Open Demo</a>
+                <a href="./projects/${project}/index.html" target="_blank">Open Demo</a>
             </div>
         </div>
     `)
