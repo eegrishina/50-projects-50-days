@@ -3,7 +3,7 @@
 This repository contains a collection of 50 mini-projects built with HTML, CSS, and JavaScript.  
 The projects are based on the **50 Projects in 50 Days** course by Brad Traversy and Florin Pop ([link](https://www.udemy.com/course/50-projects-50-days/)), with some modifications and improvements.
 
-[Demo](https://kaktusgr.github.io/50-projects-50-days/)
+[Demo](https://eegrishina.github.io/50-projects-50-days/)
 
 ## Description
 - The purpose of this project is to practice and improve skills in **HTML**, **CSS**, and **JavaScript**.
@@ -42,7 +42,7 @@ The projects are based on the **50 Projects in 50 Days** course by Brad Traversy
 The MIT License
 
 Copyright (c) 2020-2021 Traversy Media https://traversymedia.com  
-Copyright (c) 2023-2024 Ekaterina Grishina (kaktusGr)
+Copyright (c) 2023-2024 Ekaterina Grishina (eegrishina)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
